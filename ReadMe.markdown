@@ -200,5 +200,12 @@
   Code design definitely can be improved (namespaces, classes) but current
   "just works" state is okay for me.
 
+
 2023-12-12, Canada
+
 2024-02-25, Russia
+
+
+--
+
+See also [my other repositories](https://github.com/martin-eden/contents).
