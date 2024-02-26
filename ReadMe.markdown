@@ -2,11 +2,6 @@
 
   ![Assembled rover](Images/Rover.%20Assembled.jpg)
 
-  I call it "Willy" as sound resembles "wheely".
-
-  That's not the first incarnation, platform design is 2nd generation
-  and parts arrangement is 5th.
-
   Work is still in progress.
 
   Arduino motorboard part is gonna be library and main sketch will be
