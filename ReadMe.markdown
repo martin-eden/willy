@@ -188,7 +188,7 @@
 
 # Project history and status
 
-  As all my projects, I do changes when I have mood for this or
+  As for all of my projects, I do changes when I have mood for this or
   inspiration.
 
   First four-wheels rover (3 or 4 incarnations) was made in 2016 in
