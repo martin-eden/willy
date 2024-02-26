@@ -34,6 +34,8 @@
 
 # Principal electronic parts
 
+  ![Disassembled rover](Images/Rover.%20Disassembled.jpg)
+
   * Motor board
 
     Motor board is commanded by text protocol, similar to G codes (I call
