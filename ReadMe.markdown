@@ -64,6 +64,8 @@
 
 # Real world
 
+  ![Rotation gyro dump](Images/Http.%20Rotation.png)
+
 ## Problems
 
   * Accelerometer data is noisy
