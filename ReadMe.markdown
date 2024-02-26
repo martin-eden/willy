@@ -5,6 +5,14 @@
   That's not the first incarnation, platform design is 2nd generation
   and parts arrangement is 5th.
 
+  Work is still in progress.
+
+  Arduino motorboard part is gonna be library and main sketch will be
+  an "example" of that library.
+
+  Wemos overseer is already a library "me_RoverWilly". Main sketch
+  is in "examples" there.
+
 # Installation
 
   Clone repo, copy "Willy" to sketch folder.
@@ -12,15 +20,20 @@
   Inside there are four folders:
 
     1. `Arduino_Willy`
-    2. `WemosD1_Willy`
-    3. `Arduino_Willy libraries`
-    4. `WemosD1_Willy libraries`
+    2. `Arduino_Willy libraries`
+    3. `WemosD1_Willy libraries`
 
-  Copy contents of (3) and (4) to your libraries folder. Inside are my
-  libraries and commonly available libraries that is needed. Names of
-  my libraries begins with "me_". So in case of file conflicts for
-  standard libraries, copy only mine. Then compile and install needed
-  standard libraries manually.
+  Copy (1) to your sketch directory.
+
+  Copy (2) and (3) to your libraries directory.
+
+  Disconnect Wemos from Arduino.
+
+  Connect USB to Arduino, burn sketch "Arduino_Willy".
+
+  Connect USB to Wemos, burn example from library "me_RoverWilly".
+
+  Connect Wemos to Arduino.
 
 # Principal electronic parts
 
@@ -187,3 +200,4 @@
   "just works" state is okay for me.
 
 2023-12-12, Canada
+2024-02-25, Russia
