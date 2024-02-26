@@ -1,5 +1,7 @@
 # My mobile platform project on DC motors
 
+  ![Assembled rover](Images/Rover.%20Assembled.jpg)
+
   I call it "Willy" as sound resembles "wheely".
 
   That's not the first incarnation, platform design is 2nd generation
