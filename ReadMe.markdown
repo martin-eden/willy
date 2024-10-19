@@ -2,33 +2,38 @@
 
   ![Assembled rover](Images/Rover.%20Assembled.jpg)
 
-  Work is still in progress.
+  Currently it stays on bookshelf.
 
-  Arduino motorboard part is gonna be library and main sketch will be
-  an "example" of that library.
+  It can be controlled via HTTP. In response it sends sample
+  accelerometer data.
 
-  Wemos overseer is already a library "me_RoverWilly". Main sketch
-  is in "examples" there.
+  Idea was to use it for machine learning. I mean machine doing machine
+  learning to learn how to move itself and explore environment.
+
+  After I wrote firmware, I went to writing my own framework for
+  Arduino. In a sane way. For great justice. Where I am today.
+
+  So currently it stays on bookshelf.
 
 # Installation
 
-  Clone repo, copy "Willy" to sketch folder.
+  Clone repo.
 
-  Inside there are four folders:
+  Inside there are three directories:
 
     1. `Arduino_Willy`
     2. `Arduino_Willy libraries`
     3. `WemosD1_Willy libraries`
 
-  Copy (1) to your sketch directory.
+  `Arduino_Willy` goes to your sketch directory.
 
-  Copy (2) and (3) to your libraries directory.
+  Contents of (2) and (3) going to your libraries directory.
 
   Disconnect Wemos from Arduino.
 
-  Connect USB to Arduino, burn sketch "Arduino_Willy".
+  Connect USB to Arduino, burn sketch `Arduino_Willy`.
 
-  Connect USB to Wemos, burn example from library "me_RoverWilly".
+  Connect USB to Wemos, burn example from library `me_RoverWilly`.
 
   Connect Wemos to Arduino.
 
@@ -191,14 +196,14 @@
   As for all of my projects, I do changes when I have mood for this or
   inspiration.
 
-  First four-wheels rover (3 or 4 incarnations) was made in 2016 in
-  Moscow, Russia. Plywood, jigsaw.
+  Four-wheeled rover (3 or 4 incarnations) was made in 2016 in
+  Moscow, Russia. Plywood, AutoCAD, jigsaw.
 
-  Two-wheels rover was made in 2023 in Mississauga, Canada. Solid wood,
-  CNC.
+  Two-wheeled rover (2 or 3) incarnations was made in 2023 in
+  Mississauga, Canada. Solid wood, Fusion, CNC.
 
-  Code design definitely can be improved (namespaces, classes) but current
-  "just works" state is okay for me.
+  Code design definitely can be improved (namespaces, classes) but
+  current "just works" state is okay for me.
 
 
 2023-12-12, Canada
